@@ -53,7 +53,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2657686221513713069
 Transform:
   m_ObjectHideFlags: 0
@@ -242,6 +242,7 @@ MonoBehaviour:
   inputTimer: 0.2
   attackRadius: 0.8
   attackDamage: 10
+  stunDamageAmount: 1
   attackHitBoxPos: {fileID: 2657686222404112467}
   whatIsDamageable:
     serializedVersion: 2

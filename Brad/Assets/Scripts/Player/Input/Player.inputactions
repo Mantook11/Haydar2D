@@ -20,20 +20,17 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "74457885-5627-4904-be45-b756b7314dac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "84deb531-dde9-4d73-a83d-4d78d6c83d36",
-                    "path": "<Gamepad>/leftStick",
-                    "interactions": "",
-                    "processors": "StickDeadzone",
-                    "groups": "Gamepad",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "WASD",
                     "id": "14ba24bb-581b-46da-b683-ba8037e20438",
@@ -91,6 +88,17 @@
                 },
                 {
                     "name": "",
+                    "id": "11950158-18da-4e73-9a63-a2c6d0b16e73",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "Gamepad",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "2f497e09-f790-423f-bffc-04e9c0ad5f7b",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -102,12 +110,34 @@
                 },
                 {
                     "name": "",
-                    "id": "b8567b4c-d66f-43d2-b9f4-8c19461ea2be",
+                    "id": "d0967dcc-f68e-4373-9d52-ef4c347a19a9",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01dd0ab0-62ab-40e6-acb6-33b146521a1b",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73737150-2a9c-42c4-b3c6-3bbeff051508",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Grab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
