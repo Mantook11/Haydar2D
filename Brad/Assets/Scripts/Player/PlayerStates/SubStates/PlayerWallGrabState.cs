@@ -23,9 +23,9 @@ public class PlayerWallGrabState : PlayerTouchingWallState
     {
         base.LogicUpdate();
 
-        HoldPosition();
-
         if (isExitingState) return;
+
+        HoldPosition();
 
         if (yInput > 0)
         {

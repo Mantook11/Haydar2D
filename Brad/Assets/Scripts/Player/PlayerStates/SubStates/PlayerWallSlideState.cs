@@ -12,9 +12,10 @@ public class PlayerWallSlideState : PlayerTouchingWallState
     {
         base.LogicUpdate();
 
-        player.SetVelocityY(-playerData.wallSlideVelocity);
 
         if (isExitingState) return;
+
+        player.SetVelocityY(-playerData.wallSlideVelocity);
 
         if (isGrounded)
         {
